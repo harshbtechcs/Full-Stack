@@ -118,12 +118,305 @@
         
     } */
 
+    /* 
+    
+    */
+
+    /* *{
+        margin: 0;
+        padding:0;
+        
+    }
+    #box{
+        background-color: chartreuse;
+        height:100px;
+        width:100px;
+        padding:  5px 5px 5px 5px;
+        margin:5px 10px 5px 10px;
+    } */
+
+    /* .pad{
+        height: 100px;
+        width:100px;
+        padding: 2px;
+        
+    }
     #first{
         background-color: aqua;
-        text-align: center;
-        text-transform: capitalize;
+        border: 5px solid red;
+        margin: 5px;
+        border-radius: 10px; ;
+
     }
+
+    #second{
+        background-color: aquamarine;
+        border: 5px solid red;
+        margin: 5px;
+    } */
+/* 
     *{
-        padding: 0%;
         margin: 0px;
+        padding: 0px;
+    } */
+
+
+    /* .pad{
+        height: 100px;
+        width: 100px;
+        padding: 2px;
+        margin: 5px;
+        
+
+
     }
+
+    #first{
+        box-sizing: border-box;
+        background-color: aqua;
+    }
+
+    #second{
+        box-sizing: content-box;
+        background-color: aquamarine;
+    } */
+
+/* 
+    *{
+        margin: 0;
+        padding: 0;
+    } */
+/* 
+    .pad{
+        height: 100px;
+        width: 100px;
+        padding: 2px;
+        margin: 5px;
+        border: 5px dashed red;
+        border-radius: 30px;
+        text-align: center; */
+        /* display: inline;
+         */
+         /* display: inline-block;
+    }
+
+    #first{
+        background-color: aqua;
+       
+    }
+    #second{
+        background-color: aquamarine;
+    }
+    #third{
+        background-color: blue;
+        visibility: hidden;
+        display: none;
+    } */
+/* 
+    *{
+        font-size: 50px;
+    }
+
+    #first{
+        height: 200px;
+        width: 200px;
+        background-color: aqua;
+        font-size: 2rem;
+    }
+
+    #second{
+        height: 30%;
+        width: 50%;
+        background-color: brown;
+        font-size: 14px;
+    } */
+
+    /* *{
+        margin: 0;
+        padding: 0;
+    }
+
+    #first{
+        height: 50vh;
+        width: 50vw;
+
+        background-color: aquamarine;
+    } */
+
+    /* *{
+        margin: 0;
+        padding: 0;
+    }
+
+    div{
+        height: 100px;
+        width: 100px;
+        background-color: brown;
+        border: 5px solid black;
+        margin: 5px;
+    }
+
+    #div1{
+
+        position: static;
+
+    }
+    #div2{
+        position: relative;
+        top: 20px;
+        left: 90px;
+
+    }
+   #div3{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+   }
+   #div4{
+    position: fixed;
+    top: 20px;
+    left: 90px;
+
+   } */
+
+   /* *{
+    margin: 0;
+    padding:0;
+   }
+
+.container{
+    position: relative;
+}
+
+.box1 ,.box2{
+    position: absolute;
+
+    height: 100px;
+    width: 100px;
+    /* background-color: blue; */
+    /* margin: 5px;
+    padding: 2px;
+
+}
+.box1{
+    z-index: 1;
+    left: 20px;
+    top: 60px;
+    background-color: aqua;
+}
+.box2{
+    left: 60px;
+    top: 20px;
+    z-index: 2;
+    background-color: brown;
+} */ 
+ /* *{
+    margin: 0;
+    padding: 0;
+ }
+ nav{
+    padding: 5px;
+ }
+
+nav a{
+
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left:55px ;
+    padding: 5px;
+
+}
+header{
+    background-color: aquamarine;
+}
+
+#second{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border-radius:50%
+}
+.box{
+    height: 100px;
+    width:100px;
+    background-color: aqua;
+    margin: 5px;
+    display: inline-block;
+}
+#container{
+    border: 5px dashed;
+} */
+
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    height: 200px;
+    width:500px;
+    border: 5px solid red;
+    background-color: rgb(199, 133, 46);
+
+}
+.box{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    padding:2px;
+
+}
+#box1{
+    background-color: aqua;
+    float: right;
+}
+#box2{
+    background-color: blue;
+} */
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#container{
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; 
+    */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    /* align-content: center; */
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border: 2px solid black;
+}
+#box1{
+    background-color: aquamarine;
+    flex-shrink: 6;
+
+}
+#box2{
+    background-color: blanchedalmond;
+}
+#box3{
+    background-color: blueviolet;
+}
