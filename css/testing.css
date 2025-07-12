@@ -375,35 +375,35 @@ header{
     background-color: blue;
 } */
 
-h1{
+/* h1{
     text-align: center;
     text-transform: uppercase;
     text-decoration: underline;
 
 
-}
+} */
 
-*{
+/* *{
     margin: 0;
     padding: 0;
 
-}
-#container{
+} */
+/* #container{
     margin: 10px;
     height: 500px;
     width: 500px;
     background-color: aqua;
     display: flex;
-    flex-direction: row;
+    flex-direction: row; */
     /* justify-content: flex-start; 
     */
     /* justify-content: space-evenly; */
     /* flex-wrap: wrap; */
     /* align-items: center; */
     /* align-content: center; */
-}
+/* } */
 
-.box{
+/* .box{
     height: 100px;
     width: 100px;
     margin: 5px;
@@ -419,4 +419,255 @@ h1{
 }
 #box3{
     background-color: blueviolet;
+} */
+
+
+/* *{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 50px;
+    border: 2px dashed red;
+    
+}
+#box1{
+    background-color: aquamarine;
+    grid-row: 1/2;
+    grid-column: 1/2;
+
+} */
+/* #box2{background-color: aqua
+    ;
+    grid-row: 2/2;
+    grid-column: 2/2;
+
+}
+#box3{
+    background-color: bisque;
+    grid-column: 2/2;
+    grid-row: 1/2;
+
+}
+#box4{
+    background-color: blueviolet;
+    grid-column: 1/2;
+    grid-row:2/2 ;
+
+} */
+/* 
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+
+
+}
+
+@media screen and (min-width:300px)and (max-width:400px){
+    .box{
+        background-color: brown;
+        border-radius:50% ;
+        text-align: center;
+    }
+    
+} */
+/* 
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header{
+    background-color: aqua;
+}
+.box1{
+    text-decoration: none;
+    
+    
+
+}
+img{
+    height: 200px;
+    width: 200px;
+
+}
+
+#imagecontainer{
+    border: 2px solid blueviolet;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    background-color: brown;
+
+}
+#boxcontainer{
+    height: 300px;
+    /* width: 500px; */
+    /* background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 400px;
+/* } */
+/* #boxx1{
+    flex-grow: 1;
+    flex-shrink: 1;
+} */ 
+/* #ppp{
+    height: 50px;
+    width: 50px;
+    background-color: aquamarine;
+
+} */
+
+/* #ppp{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+
+}
+
+@media   {
+    
+} */
+
+/* .btn{
+    height: 25px;
+    width: 150px;
+    background-color: aqua;
+    border: 2px dashed black;
+    border-radius: 30px;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+
+}
+.btn:hover{
+    background-color: aquamarine;
+    height: 50px;
+    width: 200px;
+
+}
+.btn:active{
+    background-color: brown;
+
+} */
+
+/* .box{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 30px;
+    border: 2px solid red;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 100px;
+
+    transition-property: all;
+    transition-duration: 4s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1sec;
+
+}
+.box:hover{
+    /* transform: rotate(45deg); */
+    /* transform:scalex (2) */
+    /* transform: translate(50px); */
+     /* transform: skew(45deg);
+} */ 
+
+
+/* .box{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 30px;
+    border: 2px solid red;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    animation-name: ghumakkad;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+    animation-delay: 1sec;
+    animation-iteration-count: 5;
+    animation-direction: alternate-reverse;
+
+
+}
+@keyframes ghumakkad{
+    /* from{
+        left: 10px;
+
+    }
+    to{
+        left: 200px;
+    } */
+     /* 0%{
+        left: 10px;
+
+     }
+     25%{
+        left: 50px;
+
+     }
+     50%{
+        left: 100px;
+        
+     }
+     100%{
+        left: 200px;
+
+     }
+}  */
+
+.progresscontainer{
+    height: 25px;
+    width: 90%;
+    background-color: aqua;
+    border: 2px solid purple;
+    border-radius: 20px;
+    position: relative;
+    left: 4%;
+
+}
+.progressbar{
+    height: 100%;
+    width: 50%;
+    background-color: chocolate;
+    border-radius: 20px;
+
+    animation: progress 4s 5;
+}
+@keyframes progress {
+    from{
+        width: 0%;
+
+    }
+    to{
+        width: 100%;
+
+    }
+    
 }
